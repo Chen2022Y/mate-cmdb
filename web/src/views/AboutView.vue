@@ -1,5 +1,9 @@
 <script setup>
+import {onMounted} from "vue";
 
+onMounted(() =>{
+  document.title = '关于 Mate CMDB'
+})
 </script>
 
 <template>

@@ -4,7 +4,7 @@
 <template>
   <div class="home-view">
     <div class="image-abs">
-      <img src="../assets/image/community.svg" alt="" style="width: 100%; height: 100%">
+      <img src="../../assets/image/community.svg" alt="" style="width: 100%; height: 100%">
     </div>
     <div class="welcome">Mate CMDB</div>
     <div class="version">v1.0.0</div>
