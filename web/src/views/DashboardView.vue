@@ -163,12 +163,17 @@ onMounted(() => {
             collapsed-width="0"
             width="245"
             :native-scrollbar="false"
+            style="position: relative"
         >
           <n-menu :options="menuOptions"/>
+
+          <n-button style="width: 245px;bottom: 2px;position: absolute;">
+            退&nbsp;出&nbsp;登&nbsp;录
+          </n-button>
         </n-layout-sider>
 
         <n-layout-content content-style="padding: 15px">
-          <RouterView style="width: 100%;height: 100%"></RouterView>
+          <RouterView style="width: 100%;height: 100%;"></RouterView>
         </n-layout-content>
     </n-layout>
   </div>
